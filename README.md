@@ -11,3 +11,5 @@ s3 =
   ```
 - Make a folder to hold the new data `mkdir ~/polar-fulldump`
 - Download the bucket to the instance via `aws s3 sync s3://polar-fulldump ~/polar-fulldump --quiet && echo Done`
+- Wait a long time:
+![s3_to_instance](https://cloud.githubusercontent.com/assets/4623063/13813354/59dbe0fe-eb81-11e5-8b7e-12c927ee8d61.gif)
