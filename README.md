@@ -13,3 +13,8 @@ s3 =
 - Download the bucket to the instance via `aws s3 sync s3://polar-fulldump ~/polar-fulldump --quiet && echo Done`
 - Wait a long time:
 ![s3_to_instance](https://cloud.githubusercontent.com/assets/4623063/13813354/59dbe0fe-eb81-11e5-8b7e-12c927ee8d61.gif)
+
+
+Get the file sizes:
+http://unix.stackexchange.com/questions/185764/how-do-i-get-the-size-of-a-directory-on-the-command-line
+`du -sch` within the folder.
