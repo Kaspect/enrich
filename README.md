@@ -18,3 +18,23 @@ s3 =
 Get the file sizes:
 http://unix.stackexchange.com/questions/185764/how-do-i-get-the-size-of-a-directory-on-the-command-line
 `du -sch` within the folder.
+
+
+# install Grobid
+```
+wget https://github.com/kermitt2/grobid/archive/grobid-parent-0.4.0.zip
+sudo apt-get -y install unzip
+unzip grobid-grobid-parent-0.4.0.zip
+sudo apt-get -y install maven2
+cd grobid-grobid-parent-0.4.0/grobid-core/target/
+mvn clean install
+```
+
+Add the following dependency in pom:
+```
+<plugin>
+  <groupId>org.mortbay.jetty</groupId>
+  <artifactId>maven-jetty-plugin</artifactId>
+  <version>6.0.1</version>
+</plugin>
+```
