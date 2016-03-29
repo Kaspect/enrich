@@ -7,7 +7,7 @@
 #                   (see https://tika.apache.org/0.7/gettingstarted.html for how)
 #               (2) Download all the trained NER library needed from Apache OpenNLP
 #                   (see https://wiki.apache.org/tika/TikaAndNER for how)
-#
+#		(3) tika-config.xml
 # Usage: sh generic_ner_parser.sh &> ner.log
 #
 # Example Output:
