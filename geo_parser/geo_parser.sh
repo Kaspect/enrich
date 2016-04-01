@@ -1,5 +1,5 @@
 #-------------------------------------------------------------------------------
-# Name:        geo_parser.out
+# Name:        geo_parser.sh
 #
 # Purpose:     Call Tika to extract geological information from file, look it up
 #	       in a running Lucene Geo Gazetteer server and output the results
@@ -37,8 +37,8 @@
 TIKA_JAR=/users/hangguo/Tika/tika-app/target/tika-app-1.12-SNAPSHOT.jar
 NER_MODEL_DIR=/users/hangguo/src/location-ner-model
 GEO_MIME_DIR=/users/hangguo/src/geotopic-mime
-FILE_LIST=full_file_list
-OUT=geo_parsed.out
+FILE_LIST=10k_sf_file_list
+OUT=geo_parsed.json
 
 rm $OUT
 
@@ -49,11 +49,22 @@ while read FN
 	EXTRACTION_CMD='java -jar '$TIKA_JAR' -t '$FPATH' > '$FPATH_GEOT
 	PARSING_CMD='java -classpath '$TIKA_JAR':'$NER_MODEL_DIR':'$GEO_MIME_DIR' org.apache.tika.cli.TikaCLI -m '$FPATH_GEOT
 
-        printf "Parsed File:$FN\n" >> $OUT
-        printf "\nParsed File:$FN\n"
+        printf "{\"FILE_PATH\":\"$FN\",\n" >> $OUT
+        printf "\nFILE_PATH:$FN\n"
 	eval $EXTRACTION_CMD
-	eval $PARSING_CMD | grep 'Optional\|Geographic' >> $OUT 
-	rm $FPATH_GEOT
+	eval $PARSING_CMD | grep 'Optional\|Geographic' > geo.tmp
+
+	if [[ -s geo.tmp ]] ; then
+        	printf "\"Geo_Info\":{\n" >> $OUT
+		cat geo.tmp | sed "s/^/\"/" | sed "s/\: /\"\:\"/" | sed "s/$/\"/" | sed -e "$ ! s/$/,/" >> $OUT 
+ 	        printf "}}\n" >> $OUT
+	else
+		printf "\"Geo_Info\":null\n" >> $OUT
+		printf "}\n" >> $OUT
+	fi;
 	printf "\n" >> $OUT
+
+	rm $FPATH_GEOT
+	rm geo.tmp
  
  done < $FILE_LIST
