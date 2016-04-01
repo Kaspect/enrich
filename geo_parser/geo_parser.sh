@@ -2,7 +2,7 @@
 # Name:        geo_parser.sh
 #
 # Purpose:     Call Tika to extract geological information from file, look it up
-#	       in a running Lucene Geo Gazetteer server and output the results
+#	       in a running Lucene Geo Gazetteer server and output the results in json format
 #
 # Prerequisite: (1) Build a runnable Tika standalone jar file 
 #	            (see https://tika.apache.org/0.7/gettingstarted.html for how)
@@ -15,19 +15,13 @@
 #
 #
 # Example Output:
-#	Parsed File:107/4/150/128/37C721159B48CFB8B123B8EE2002D48451EA363112A9EBF53AFCB1B9B45FFDB8
-#	Geographic_LATITUDE: 38.50038
-#	Geographic_LONGITUDE: -80.50009
-#	Geographic_NAME: West Virginia
-#	Optional_LATITUDE1: 60.10867
-#	Optional_LATITUDE2: 43.00024
-#	Optional_LATITUDE3: 39.00027
-#	Optional_LONGITUDE1: -113.64258
-#	Optional_LONGITUDE2: -107.5009
-#	Optional_LONGITUDE3: -105.50083
-#	Optional_NAME1: Canada
-#	Optional_NAME2: Wyoming
-#	Optional_NAME3: Colorado
+#
+#	{"FILE_PATH":"edu/berkeley/vcresearch/159A0874BBB0E6F1FFEFB2481B7C50B394F4ACAFDC169A1E0F1425D002F944E7",
+#	"Geo_Info":{
+#	"Geographic_LATITUDE":"39.46407",
+#	"Geographic_LONGITUDE":"-78.02754",
+#	"Geographic_NAME":"Berkeley County"
+#	}}
 #
 # Author:      Hang Guo
 #
