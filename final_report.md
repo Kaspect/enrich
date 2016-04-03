@@ -15,8 +15,8 @@ of the files within the polar dataset.
 5. Extract publication information from publications  
 -- a. get TEI.xml files for publcations **NOT DONE**  
 -- b. Run scholar extractions for all tei.xml files **NOT DONE**  
-6. Geotopic
-7. SWEET
+6. Geotopic **DONE**
+7. SWEET **DONE**
 8. Metadata Quality
 9. Plug outputs from 3-7 into Solr.
 10. 
