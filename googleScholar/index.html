@@ -23,10 +23,10 @@
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 
-var diameter = 960;
+var diameter = 1400;
 
 var tree = d3.layout.tree()
-    .size([360, diameter / 2 - 120])
+    .size([360, diameter / 2 - 500])
     .separation(function(a, b) { return (a.parent == b.parent ? 1 : 2) / a.depth; });
 
 var diagonal = d3.svg.diagonal.radial()
@@ -60,10 +60,11 @@ d3.json("flare.json", function(error, root) {
       .attr("r", 4.5);
 
   node.append("text")
-      .attr("dy", ".31em")
+      .attr("dy", ".15em")
+      .attr("font-size", "6px")
       .attr("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
       .attr("transform", function(d) { return d.x < 180 ? "translate(8)" : "rotate(180)translate(-8)"; })
-      .text(function(d) { return d.name; });
+      .text(function(d) { return d.title; });
 });
 
 d3.select(self.frameElement).style("height", diameter - 150 + "px");

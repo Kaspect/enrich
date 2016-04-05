@@ -1,70 +1,69 @@
-{"title": "PUBZ",
-"children": [{
+[{
  "id":"00DA1538949DE01153C10C582F4EA60490BA534A07320BFFF333A90820BE6A2B",
  "Content-Type":"application/pdf",
 "title":"NCCRMonika Waelti",
-"children":[
-  {
-  "title" : "Climate Economics at the NCCR Climate",
-  "author" : "Thalmann, Philippe and Baranzini, Andrea",
-  "journal" : "Gradual Introduction of",
-  "year" : "2007"
-  },
-  {
-  "title" : "C2SM, MeteoSwiss, ETH, NCCR Climate, and OcCC",
-  "author" : "CH2011, Swiss Climate Change Scenarios",
-  "journal" : "CH2011, Zurich, Switzerland",
-  "volume" : "88",
-  "year" : "2011"
-  },
-  {
-  "title" : "Zurich, Switzerland: C2SM, MeteoSwiss, ETH, NCCR Climate and OcCC; 2011",
-  "author" : "CH2011, Swiss Climate Change Scenarios",
-  "institution" : "ISBN 978-3-033-03065-7.< http://www. ch2011. ch"
-  },
-  {
-  "title" : "Quantifying direct and induced economic costs of climate change, presented at NCCR Climate Economics and Law Conference, Bern, 16--17 June 2011",
-  "author" : "Perrels, A and Simola, A and Rosqvist, T and Virta, H and Honkatukia, J",
-  "year" : "2011"
-  },
-  {
-  "title" : "Climate Economics at the NCCR Climate",
-  "author" : "M{uller-F{urstenberger, Georg and Stephan, Gunter",
-  "year" : "2005",
-  "publisher" : "Citeseer"
-  },
-  {
-  "title" : "published by C2SM, MeteoSwiss, ETH, NCCR Climate, and OcCC, Zurich, Switzerland, 88p",
-  "author" : "CH2011, Swiss Climate Change Scenarios",
-  "year" : "2011",
-  "publisher" : "ISBN"
-  },
-  {
-  "title" : "Climate Econ the NCCR C",
-  "author" : "Sch, Oliver",
-  "year" : "2011"
-  },
-  {
-  "title" : "Climate Economics at the NCCR Climate",
-  "author" : "Guelden, Jasmin and Poliwoda, Guido N",
-  "year" : "2008"
-  },
-  {
-  "title" : "Climate Economics at the NCCR Climate",
-  "author" : "Holzer, Kateryna"
-  },
-  {
-  "title" : "Climate Economics at the NCCR Climate",
-  "author" : "Haurie, Alain and Moresino, Francesco and Vielle, Marc and Viguier, Laurent"
-  }
+"relatedPublications":[
+	{
+	"title" : "Climate Economics at the NCCR Climate",
+	"author" : "Thalmann, Philippe and Baranzini, Andrea",
+	"journal" : "Gradual Introduction of",
+	"year" : "2007"
+	},
+	{
+	"title" : "C2SM, MeteoSwiss, ETH, NCCR Climate, and OcCC",
+	"author" : "CH2011, Swiss Climate Change Scenarios",
+	"journal" : "CH2011, Zurich, Switzerland",
+	"volume" : "88",
+	"year" : "2011"
+	},
+	{
+	"title" : "Zurich, Switzerland: C2SM, MeteoSwiss, ETH, NCCR Climate and OcCC; 2011",
+	"author" : "CH2011, Swiss Climate Change Scenarios",
+	"institution" : "ISBN 978-3-033-03065-7.< http://www. ch2011. ch"
+	},
+	{
+	"title" : "Quantifying direct and induced economic costs of climate change, presented at NCCR Climate Economics and Law Conference, Bern, 16--17 June 2011",
+	"author" : "Perrels, A and Simola, A and Rosqvist, T and Virta, H and Honkatukia, J",
+	"year" : "2011"
+	},
+	{
+	"title" : "Climate Economics at the NCCR Climate",
+	"author" : "M{uller-F{urstenberger, Georg and Stephan, Gunter",
+	"year" : "2005",
+	"publisher" : "Citeseer"
+	},
+	{
+	"title" : "published by C2SM, MeteoSwiss, ETH, NCCR Climate, and OcCC, Zurich, Switzerland, 88p",
+	"author" : "CH2011, Swiss Climate Change Scenarios",
+	"year" : "2011",
+	"publisher" : "ISBN"
+	},
+	{
+	"title" : "Climate Econ the NCCR C",
+	"author" : "Sch, Oliver",
+	"year" : "2011"
+	},
+	{
+	"title" : "Climate Economics at the NCCR Climate",
+	"author" : "Guelden, Jasmin and Poliwoda, Guido N",
+	"year" : "2008"
+	},
+	{
+	"title" : "Climate Economics at the NCCR Climate",
+	"author" : "Holzer, Kateryna"
+	},
+	{
+	"title" : "Climate Economics at the NCCR Climate",
+	"author" : "Haurie, Alain and Moresino, Francesco and Vielle, Marc and Viguier, Laurent"
+	}
 ]},
 
 
- {"id":"0B4DF4539ABD35F09B127EECA00E27398C0DFF0C9EAFF871048FBEB32085F9CD",
+ "id":"0B4DF4539ABD35F09B127EECA00E27398C0DFF0C9EAFF871048FBEB32085F9CD",
  "Content-Type":"application/pdf",
 "title":"Kulie_seminar.fm",
 "author":"makowski",
-"children":[
+"relatedPublications":[
 {
 "title" : "Climate Economics at the NCCR Climate",
 "author" : "Thalmann, Philippe and Baranzini, Andrea",
@@ -156,10 +155,10 @@
 ]},
 
 
-{ "id":"00DB30E5B7902603FF197868E07848E0C0C3C2440F5B4745563EF130930C841D",
+ "id":"00DB30E5B7902603FF197868E07848E0C0C3C2440F5B4745563EF130930C841D",
  "Content-Type":"application/pdf",
 "title":"MicrosoftJennifer Geary",
-"children":[{
+"relatedPublications":[{
 "title" : "Climate Economics at the NCCR Climate",
 "author" : "Thalmann, Philippe and Baranzini, Andrea",
 "journal" : "Gradual Introduction of",
@@ -308,10 +307,10 @@
 ]},
 
 
- {"id":"0ADBE5EB77C5909A4C636F7E29F016CCDD52935038DF953C0B70ED36630C04E4",
+ "id":"0ADBE5EB77C5909A4C636F7E29F016CCDD52935038DF953C0B70ED36630C04E4",
  "Content-Type":"application/pdf",
 "title":"Microsofterobinson",
-"children":[{
+"relatedPublications":[{
 "title" : "Climate Economics at the NCCR Climate",
 "author" : "Thalmann, Philippe and Baranzini, Andrea",
 "journal" : "Gradual Introduction of",
@@ -554,10 +553,10 @@
 ]},
 
 
- {"id":"0C0BDBD53BA47CCA9C48B2095632AD2BB6A8435C4D9A862AD5026DCDD75103F2",
+ "id":"0C0BDBD53BA47CCA9C48B2095632AD2BB6A8435C4D9A862AD5026DCDD75103F2",
  "Content-Type":"application/pdf",
 "title":"MicrosoftShelly Sommer",
-"children":[{
+"relatedPublications":[{
 "title" : "Climate Economics at the NCCR Climate",
 "author" : "Thalmann, Philippe and Baranzini, Andrea",
 "journal" : "Gradual Introduction of",
@@ -910,5 +909,4 @@
 "year" : "1992",
 "publisher" : "Odessa, FL: Psychological assessment resources"
 }
-]
-}]}
+]},
