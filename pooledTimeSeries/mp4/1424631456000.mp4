@@ -1,0 +1,30 @@
+y/{
+  "url" : "http://www.socat.info/videos/SOCAT2_year_movie_v2.mp4",
+  "timestamp" : null,
+  "request" : {
+    "method" : "GET",
+    "client" : {
+      "hostname" : "nsfpolardata.dyndns.org",
+      "address" : "54.183.226.231",
+      "software" : "Nutch-1.10-SNAPSHOT",
+      "robots" : "CLASSIC",
+      "contact" : {
+        "name" : "",
+        "email" : ""
+      }
+    },
+    "headers" : [ [ "Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" ], [ "Accept-Encoding", "" ], [ "Accept-Language", "en-us,en-gb,en;q=0.7,*;q=0.3" ], [ "User-Agent", "" ] ],
+    "body" : null
+  },
+  "response" : {
+    "status" : "",
+    "server" : {
+      "hostname" : "www.socat.info",
+      "address" : ""
+    },
+    "headers" : [ [ "Content-Encoding", "" ], [ "Content-Type", "text/html" ], [ "Date", "1424631456000" ], [ "Server", "nginx" ], [ "Vary", "Accept-Encoding" ], [ "Expires", "Sun, 22 Feb 2015 18:57:35 GMT" ], [ "nutch.crawl.score", "4.792774E-16" ], [ "_fst_", "33" ], [ "nutch.segment.name", "20150222104333" ], [ "Connection", "close" ], [ "Cache-Control", "no-cache" ] ],
+    "body" : "<html><head><meta http-equiv=\"refresh\" content=\"0;url=http://www.dnsrsearch.com/index.php?origURL=http://www.socat.info/videos/SOCAT2_year_movie_v2.mp4\"/></head><body><script type=\"text/javascript\">window.location=\"http://www.dnsrsearch.com/index.php?origURL=\"+escape(window.location)+\"&r=\"+escape(document.referrer);</script></body></html>"
+  },
+  "key" : "info_socat_www_026571f261581249d3e6b66c7b311e93c5c4c4d9_1424631456000",
+  "imported" : "1424631456000"
+}

@@ -1,0 +1,2 @@
+org.apache.sis.storage.netcdf.NetcdfStoreProvider
+org.apache.sis.internal.storage.xml.XMLStoreProvider
